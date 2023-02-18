@@ -1,16 +1,16 @@
 body {
     background-color: #FFF3B0;
+    font-family: 'Roboto', sans-serif;
 }
-h2 {
+h1, h2 {
     color: #9E2A2B;
 }
 img {
-    width: 500px;
-    border: 3 px solid #E09F3E;
+    width: 500px;;
 }
-p {
+p, ul, ol {
     color: #540B0E;
 }
-h1 {
-    color: #335C67;
+a {
+    color: #540B0E;
 }
