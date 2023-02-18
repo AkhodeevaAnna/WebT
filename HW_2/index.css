@@ -1,9 +1,24 @@
+@font-face {
+	font-family: 'Evgenia Deco';
+	src: url('fonts/evgenia_deco.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/evgenia_deco.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/evgenia_deco.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/evgenia_deco.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/evgenia_deco.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/evgenia_deco.svg#evgenia_deco') format('svg'); /* Chrome < 4, Legacy iOS */
+}
 body {
     background-color: #FFFBFF;
-    font-family: 'Roboto', sans-serif;
 }
-h1, h2 {
+h1 {
     color: #CE4760;
+    font-family: 'Evgenia Deco', sans-serif;
+    font-size: 70px;
+}
+h2 {
+    color: #CE4760;
+    font-family: 'Evgenia Deco', sans-serif;
+    font-size: 50px;
 }
 img {
     width: 500px;
@@ -11,4 +26,5 @@ img {
 }
 p, ul, ol, a {
     color: #261132;
+    font-family: 'Roboto', sans-serif;
 }
