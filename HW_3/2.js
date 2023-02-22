@@ -1,6 +1,6 @@
 function greeting(userName) {
-    console.log(`Привет, ${userName}`)
+    console.log(`Привет, ${userName}`);
 }
 
-const nameUser = prompt("Как Вас зовут?")
-greeting(nameUser)
+const nameUser = prompt("Как Вас зовут?");
+greeting(nameUser);
